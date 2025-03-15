@@ -1,17 +1,9 @@
-.navright
-{
-    float:right
-}
-li a
-{
-    display:block;
+.navright{float:right;}
+.card{ padding: 16px ;}
+a{   display:inline;
     text-align: center;
     text-decoration: none;
     color:black;
 }
-ul{
-    margin: 0;
-    padding: 0;
-    list-style-type: 0;
-    overflow: auto;
-}
+.pad1{padding: 8px 16px;}
+a:hover{background: #c1c1c1;}
