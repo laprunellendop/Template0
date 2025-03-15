@@ -1,0 +1,13 @@
+.navright{float:right;}
+.card{ padding: 14px ;  background-color: white;}
+a{   display:inline;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+.pad1{padding: 8px 16px;}
+a:hover{background: #c1c1c1;}
+div.top{position: sticky;
+    top: 0;
+  
+   }
