@@ -1,3 +1,18 @@
+.navright{float:right;}
+.card{ padding: 14px ;  background-color: white;}
+a{   display:inline;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+.pad1{padding: 8px 16px;}
+a:hover{background: #c1c1c1;}
+div.top{position: sticky;
+    top: 0;
+  
+   }
+
+
 .contimg{position: relative;}
 .textimg{ position: absolute;
     bottom: 8px;
@@ -27,3 +42,4 @@
         }
 span{background-color: lightgray;
 padding: 4px 8px ;}
+
