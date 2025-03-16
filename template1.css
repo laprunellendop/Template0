@@ -1,5 +1,5 @@
 .navright{float:right;}
-.card{ padding: 14px ;  background-color: white;}
+.card{ padding: 16px 24px ;  background-color: white; width: auto; }
 a{   display:inline;
     text-align: center;
     text-decoration: none;
@@ -9,7 +9,7 @@ a{   display:inline;
 a:hover{background: #c1c1c1;}
 div.top{position: sticky;
     top: 0;
-  
+    z-index: 1;
    }
 
 
@@ -22,6 +22,7 @@ div.top{position: sticky;
     padding: 16px;
     color: #302f2fca;
 }
+
 
 .pad2{padding: 0 16px;}
 .margin-bottom{margin-bottom: 50px;}
@@ -36,6 +37,7 @@ div.top{position: sticky;
         margin: 10px;
         line-height: 25px;
         font-size: large;
+       
         }
         .text-align{
             text-align: center;
