@@ -1,5 +1,5 @@
 .navright{float:right;}
-.card{ padding: 14px ;  background-color: white;}
+.card{ padding: 16px 24px ;  background-color: white; width: auto; }
 a{   display:inline;
     text-align: center;
     text-decoration: none;
@@ -9,5 +9,39 @@ a{   display:inline;
 a:hover{background: #c1c1c1;}
 div.top{position: sticky;
     top: 0;
-  
+    z-index: 1;
    }
+
+
+.contimg{position: relative;}
+.textimg{ position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 35px;
+   letter-spacing: 5px;
+    padding: 16px;
+    color: #302f2fca;
+}
+
+
+.pad2{padding: 0 16px;}
+.margin-bottom{margin-bottom: 50px;}
+.block{display: block;}
+.margauto{margin: 0 200px;}
+.opacity{opacity: 0.7;}
+.flex{ display: flex;
+    flex-wrap: nowrap;
+    }
+    .box{
+        width: 50%;
+        margin: 10px;
+        line-height: 25px;
+        font-size: large;
+       
+        }
+        .text-align{
+            text-align: center;
+        }
+span{background-color: lightgray;
+padding: 4px 8px ;}
+
