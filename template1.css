@@ -1,6 +1,7 @@
+/* Cest pour la barre de navigation */
 .navright{float:right;}
 .card{ padding: 16px 24px ;  background-color: white; width: auto; }
-a{   display:inline;
+.a{   display:inline;
     text-align: center;
     text-decoration: none;
     color:black;
@@ -11,7 +12,7 @@ div.top{position: sticky;
     top: 0;
     z-index: 1;
    }
-
+/* cest pour limage principale */
 
 .contimg{position: relative;}
 .textimg{ position: absolute;
@@ -22,26 +23,62 @@ div.top{position: sticky;
     padding: 16px;
     color: #302f2fca;
 }
-
-
-.pad2{padding: 0 16px;}
 .margin-bottom{margin-bottom: 50px;}
+
+/*bloc1 et 2*/
+.pad2{padding: 0 16px;}
 .block{display: block;}
-.margauto{margin: 0 200px;}
+.margauto{margin: 0 120px;}
 .opacity{opacity: 0.7;}
-.flex{ display: flex;
+.flex
+{   display: flex;
     flex-wrap: nowrap;
-    }
-    .box{
+}
+.box
+{
         width: 50%;
         margin: 10px;
         line-height: 25px;
-        font-size: large;
-       
-        }
-        .text-align{
-            text-align: center;
-        }
+        font-size: large;   
+}
+.text-align{text-align: center;}
+/*bloc1*/        
 span{background-color: lightgray;
 padding: 4px 8px ;}
+/*Content*/
+.content{padding: 0 85px;}
+/*General*/
+.letspac{letter-spacing: 5px;}
+/*bloc2*/
+.lightgray{color: grey;}
+/*Contact*/
+input[type=text],[type=datetime-local]
+{
+    width: 100%;
+    padding: 12px 24px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:none;
+    border-bottom: 1px solid lightgrey;
+}
+input[type=submit]{color: lightgray;}
+.pad68{padding:  64px;}
+.blue-grey{color: #607d8b;}
+.button
+{  
+    background-color: lightgrey;
+    border: none;
+    padding: 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/*pied de page*/
+footer > p {padding:  64px;
+text-align: center;
+background-color:lightgrey;}
+a.color:hover {color: green;}
+a.color:link,:visited{color: black;}
+
+
 
