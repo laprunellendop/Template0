@@ -1,16 +1,16 @@
 /* Cest pour la barre de navigation */
 .navright{float:right;}
-.card{ padding: 16px 24px ;  background-color: white; width: auto; }
+.card{ padding: 16px 24px ;  background-color: white; }
 .a{   display:inline;
     text-align: center;
     text-decoration: none;
     color:black;
 }
 .pad1{padding: 8px 16px;}
-a:hover{background: #c1c1c1;}
+.a:hover{background: #c1c1c1;}
 div.top{position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 1; /*box-shadow:0 1px 5px 0 rgba(0,0,0,0.16),0 1px 5px 0 rgba(0,0,0,0.12);*/
    }
 /* cest pour limage principale */
 
@@ -28,7 +28,7 @@ div.top{position: sticky;
 /*bloc1 et 2*/
 .pad2{padding: 0 16px;}
 .block{display: block;}
-.margauto{margin: 0 120px;}
+.margauto{margin: 60px 120px}
 .opacity{opacity: 0.7;}
 .flex
 {   display: flex;
@@ -46,7 +46,8 @@ div.top{position: sticky;
 span{background-color: lightgray;
 padding: 4px 8px ;}
 /*Content*/
-.content{padding: 0 85px;}
+.content{padding: 0 80px;}
+hr{border:0;border-top:1px solid rgb(238, 238, 238); margin: 0 120px;}
 /*General*/
 .letspac{letter-spacing: 5px;}
 /*bloc2*/
@@ -62,23 +63,25 @@ input[type=text],[type=datetime-local]
     border-bottom: 1px solid lightgrey;
 }
 input[type=submit]{color: lightgray;}
-.pad68{padding:  64px;}
+.pad68{padding:  60px 120px;}
 .blue-grey{color: #607d8b;}
 .button
 {  
-    background-color: lightgrey;
+    background-color: #f1f1f1;
     border: none;
-    padding: 16px;
+    padding: 14px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
 }
+.button:hover{background-color: #c1c1c1;}
 /*pied de page*/
 footer > p {padding:  64px;
 text-align: center;
-background-color:lightgrey;}
+background-color:#f1f1f1;}
 a.color:hover {color: green;}
-a.color:link,:visited{color: black;}
+.color:link{color: black;}
+
 
 
 
