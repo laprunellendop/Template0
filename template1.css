@@ -1,87 +1,141 @@
-/* Cest pour la barre de navigation */
-.navright{float:right;}
-.card{ padding: 16px 24px ;  background-color: white; }
-.a{   display:inline;
+/*Barre de navigation */
+.navright{
+    float:right; /*Onglet about menu et contact a droite */
+} 
+.card{
+    padding: 16px 24px ;  background-color: white; /*Espace entre exterieur et bordure lien*/
+} 
+.a{
     text-align: center;
-    text-decoration: none;
+    text-decoration: none; /*Centrer le texte*/
     color:black;
+} 
+.pad1{
+    padding: 8px 16px; /*Espace bordure lien et l'ecriture*/
 }
-.pad1{padding: 8px 16px;}
-.a:hover{background: #c1c1c1;}
-div.top{position: sticky;
-    top: 0;
-    z-index: 1; /*box-shadow:0 1px 5px 0 rgba(0,0,0,0.16),0 1px 5px 0 rgba(0,0,0,0.12);*/
+.a:hover{
+    background: #c1c1c1;
+}
+div.top{
+    position: sticky;
+    top: 0;   /*Fixer la barre de navigation en haut*/
+    z-index: 1;
+    width: 100%;   
    }
-.box-shadow{box-shadow:0 1px 5px 0 rgba(0,0,0,0.16),0 1px 5px 0 rgba(0,0,0,0.12);}
-/* cest pour limage principale */
-
-.contimg{position: relative;}
-.textimg{ position: absolute;
+.box-shadow{
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 5px 0 rgba(0,0,0,0.12); /*Ombre de la barre de navigation*/
+} 
+/*Image principale */
+.contimg{
+    position: relative;
+} 
+.textimg{ 
+    position: absolute;
     bottom: 8px;
     left: 16px;
     font-size: 35px;
-   letter-spacing: 5px;
+    letter-spacing: 5px;
     padding: 16px;
     color: #302f2fca;
 }
-.margin-bottom{margin-bottom: 50px;}
-
+.image{
+    max-width:100%;height:auto; /* Fixe le head a une largeur de 1600px qui recouvrent bien l'affichage*/
+} 
+/*Content et Image principale*/
+.auto{
+    margin-left:auto;margin-right:auto; /*Espace des deux cotés de l'affichage si width's head sup 1600px et width sup a 100%*/
+}
 /*bloc1 et 2*/
-.pad2{padding: 0 16px;}
-.block{display: block;}
-.margauto{margin: 60px 120px}
-.opacity{opacity: 0.7;}
+.margauto{
+    padding: 64px 0; /*espace haut bas de 64px et 0 droite gauche*/
+} 
+hr{
+    border:0;border-top:1px solid #eee; margin: 20px 0;
+}
+.opacity{
+    opacity: 0.7;
+}
 .flex
-{   display: flex;
-    flex-wrap: nowrap;
+{ 
+    content: "";
+    clear: both;
+    display: table;
+  
 }
-.box
-{
-        width: 50%;
-        margin: 10px;
-        line-height: 25px;
-        font-size: large;   
+.column{
+    width: 49.999%;
+    padding: 0 8px;
+    float: left;
+    line-height: 25px;
+    font-size: large;   
 }
-.text-align{text-align: center;}
+.grey{
+    color: grey;
+}
+.text-align{
+    text-align: center;
+}
 /*bloc1*/        
-span{background-color: lightgray;
-padding: 4px 8px ;}
-/*Content*/
-.content{padding: 0 80px;}
-hr{border:0;border-top:1px solid rgb(238, 238, 238); margin: 0 120px;}
-/*General*/
-.letspac{letter-spacing: 5px;}
-/*bloc2*/
-.lightgray{color: grey;}
+span{
+    background-color: #f1f1f1;
+    padding: 0 8px; 
+    color:#000;
+    display:inline-block;
+    text-align:center
+}
+/*Image principale et Content*/
+.letspac{
+    letter-spacing: 5px;
+}
 /*Contact*/
 input[type=text],[type=datetime-local]
 {
     width: 100%;
-    padding: 12px 24px;
+    padding: 16px 0px;
     margin: 8px 0;
-    box-sizing: border-box;
     border:none;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #c1c1c1;
+    display: block;
 }
-input[type=submit]{color: lightgray;}
-.pad68{padding:  60px 120px;}
-.blue-grey{color: #607d8b;}
+input[type=submit]{
+    color: lightgray;
+}
+.blue-grey{
+    color: #607d8b;
+}
 .button
 {  
     background-color: #f1f1f1;
     border: none;
     padding: 14px;
     text-decoration: none;
-    margin: 4px 2px;
+    margin: 16px 0;
     cursor: pointer;
 }
-.button:hover{background-color: #c1c1c1;}
+.button:hover{
+    background-color: #c1c1c1;
+}
 /*pied de page*/
-footer > p {padding:  64px;
-text-align: center;
-background-color:#f1f1f1;}
-a.color:hover {color: green;}
-.color:link{color: black;}
+footer > p {
+    padding:  64px;
+    text-align: center;
+    background-color:#f1f1f1;
+}
+a.color:hover{
+    color: green;
+}
+.color:link{
+    color: black;
+}
+/*Affichage*/
+body{
+    margin: 0;
+  }
+*{ 
+    box-sizing: border-box;
+}
+
+
 
 
 
