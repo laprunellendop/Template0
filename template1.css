@@ -3,24 +3,30 @@
     float:right; /*Onglet about menu et contact a droite */
 } 
 .card{
-    padding: 16px 24px ;  background-color: white; /*Espace entre exterieur et bordure lien*/
+    padding: 8px 16px ; 
+     background-color: white; /*Espace entre exterieur et bordure lien*/
+    display: block !important;;
 } 
-.a{
+
+.top a{
     text-align: center;
     text-decoration: none; /*Centrer le texte*/
     color:black;
-} 
-.pad1{
+    display:inline-block;
+    font-size: 15px;
     padding: 8px 16px; /*Espace bordure lien et l'ecriture*/
 }
-.a:hover{
+
+.top a:hover{
     background: #c1c1c1;
 }
 div.top{
     position: sticky;
     top: 0;   /*Fixer la barre de navigation en haut*/
+    left:0;
     z-index: 1;
-    width: 100%;   
+    width: 100%;  
+    background-color: white; 
    }
 .box-shadow{
     box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 5px 0 rgba(0,0,0,0.12); /*Ombre de la barre de navigation*/
@@ -45,29 +51,69 @@ div.top{
 .auto{
     margin-left:auto;margin-right:auto; /*Espace des deux cotés de l'affichage si width's head sup 1600px et width sup a 100%*/
 }
-/*bloc1 et 2*/
-.margauto{
-    padding: 64px 0; /*espace haut bas de 64px et 0 droite gauche*/
-} 
+
+
+    
 hr{
     border:0;border-top:1px solid #eee; margin: 20px 0;
 }
 .opacity{
     opacity: 0.7;
 }
-.flex
+.about-section{
+    line-height: 1.5;
+    font-size: large;  
+    padding: 42px 0; /*espace haut bas de 42px et 0 droite gauche*/
+} 
+#img-container{
+    width: 49%;
+    float: left;
+    padding: 24px;
+
+}
+#text-container{
+    width: 49%;
+    float: left;
+    padding: 24px;
+
+}
+#text-container h1{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.about-section::after
 { 
-    content: "";
+    content:"";
     clear: both;
     display: table;
   
 }
-.column{
-    width: 49.999%;
-    padding: 0 8px;
+.menu-section{
+    padding: 64px 0; /*espace haut bas de 42px et 0 droite gauche*/
+    
+}
+.menu-section::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+#text-container2{
+    width: 49%;
     float: left;
-    line-height: 25px;
-    font-size: large;   
+    padding: 24px;
+}
+#text-container2 p{
+    color: grey;
+}
+#text-container2 h4 h1{
+    letter-spacing: 5px;
+}
+
+#img-container2{
+    width: 49%;
+    float: left;
+    padding-left: 30px;
 }
 .grey{
     color: grey;
@@ -88,6 +134,7 @@ span{
     letter-spacing: 5px;
 }
 /*Contact*/
+.pad{padding: 40px 16px;}
 input[type=text],[type=datetime-local]
 {
     width: 100%;
@@ -134,6 +181,26 @@ body{
 *{ 
     box-sizing: border-box;
 }
+body{font-family: "Times New Roman", Georgia, Serif; padding:0;}
+@media screen and (max-width:600px){
+    #img-container{
+    display:none;
+}
+    #text-container{width: 100%;}
+    .navright{display:none;}
+    
+
+    
+}
+@media screen and (max-width:992px){
+   
+    #text-container2{width: 100%;}
+    #img-container2{width: 100%;padding:0 32px;}
+
+    
+}
+
+
 
 
 
